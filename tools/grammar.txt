@@ -1,0 +1,8 @@
+<start> -> <A>
+    <A> -> a l p <A>''
+         | b e t a
+         | g a m m a
+   <A>' -> ϵ
+         | b
+  <A>'' -> h a <A>'
+         | ϵ

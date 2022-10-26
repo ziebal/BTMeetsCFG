@@ -1,0 +1,11 @@
+--- fuzzer.cpp	2022-08-31 20:47:41.340000000 +0000
++++ fuzzer-update.cpp	2022-08-31 22:07:24.150000000 +0000
+@@ -1817,7 +1817,7 @@
+ 	int valid = 0;
+ 	unsigned long long total_bytes = 0;
+ 	int i;
+-	int iterations = 10000;
++	int iterations = 1000000;
+ 	std::unordered_map<int,int> status;
+ 	std::string fmt = std::string(bin_name, strchr(bin_name, '-') - bin_name);
+ 	std::string output = "out." + fmt;

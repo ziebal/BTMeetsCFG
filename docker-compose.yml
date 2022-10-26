@@ -1,0 +1,73 @@
+version: '3.9'
+services:
+    converter:
+      # image: normynator/private:format-fuzzer
+      build:
+        context: ./binary_template_converter
+        dockerfile: Dockerfile
+        args:
+          ENV: converter
+      volumes:
+          - ./input:/source/input
+          - ./output:/source/output
+          - ./cache:/FormatFuzzer/build
+
+    rq1:
+      build:
+        context: ./binary_template_converter
+        dockerfile: Dockerfile
+        args:
+          ENV: test
+          RQ: 1
+      ports:
+        - "9000:9000"
+      volumes:
+        - ./rq1_input:/source/rq1_input
+        # - ./rq2_output:/source/rq2_output
+        - ./rq1_output:/source/output
+        - ./cache:/FormatFuzzer/build
+
+    rq2:
+      build:
+        context: ./binary_template_converter
+        dockerfile: Dockerfile
+        args:
+          ENV: test
+          RQ: 2
+      ports:
+        - "9000:9000"
+      volumes:
+        - ./rq2_input:/source/rq2_input
+        # - ./rq2_output:/source/rq2_output
+        - ./rq2_output:/source/output
+        - ./cache:/FormatFuzzer/build
+
+    rq3:
+      build:
+        context: ./binary_template_converter
+        dockerfile: Dockerfile
+        args:
+          ENV: test
+          RQ: 3
+      ports:
+        - "9000:9000"
+      volumes:
+        - ./rq3_input:/source/rq3_input
+        # - ./rq2_output:/source/rq2_output
+        - ./rq3_output:/source/output
+        - ./cache:/FormatFuzzer/build
+
+    rq4:
+      build:
+        context: ./binary_template_converter
+        dockerfile: Dockerfile
+        args:
+          ENV: test
+          RQ: 4
+      ports:
+        - "9000:9000"
+      volumes:
+        - ./rq4_input:/source/rq4_input
+        # - ./rq2_output:/source/rq2_output
+        - ./rq4_output:/source/output
+        - ./cache:/FormatFuzzer/build

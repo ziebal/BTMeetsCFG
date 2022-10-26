@@ -1,0 +1,30 @@
+{
+    "<start>":
+        ["<url>"],
+    "<url>":
+        ["<scheme>://<authority><path><query>"],
+    "<scheme>":
+        ["http", "https", "ftp", "ftps"],
+    "<authority>":
+        ["<host>", "<host>:<port>", "<userinfo>@<host>", "<userinfo>@<host>:<port>"],
+    "<host>":
+        ["cispa.saarland", "www.google.com", "fuzzingbook.com"],
+    "<port>":
+        ["80", "8080", "<nat>"],
+    "<nat>":
+        ["<digit>", "<digit><digit>"],
+    "<digit>":
+        ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    "<userinfo>":
+        ["user:password"],
+    "<path>":
+        ["", "/", "/<id>"],
+    "<id>":
+        ["abc", "def", "x<digit><digit>"],
+    "<query>":
+        ["", "?<params>"],
+    "<params>":
+        ["<param>", "<param>&<params>"],
+    "<param>":
+        ["<id>=<id>", "<id>=<nat>"]
+}

@@ -1,0 +1,21 @@
+--- fuzzer.cpp	2022-08-31 21:20:19.410000000 +0000
++++ fuzzer-fix.cpp	2022-08-31 21:21:24.080000000 +0000
+@@ -1819,9 +1819,15 @@
+ 	int i;
+ 	int iterations = 10000;
+ 	std::unordered_map<int,int> status;
+-        std::string fmt = std::string(bin_name, strchr(bin_name, '-') - bin_name);
+-        std::string output = "out." + fmt;
+-        std::string checker = "checkers/" + fmt + ".sh";
++	// Hotfix
++	std::string fmt;
++	std::string output;
++	std::string checker;
++	if (argc > 1) {
++        	std::string fmt = std::string(bin_name, strchr(bin_name, '-') - bin_name);
++        	std::string output = "out." + fmt;
++        	std::string checker = "checkers/" + fmt + ".sh";
++	}
+ 	uint64_t start = get_cur_time_us();
+ 	for (i = 0; i < iterations; ++i)
+ 	{

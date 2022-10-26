@@ -1,0 +1,53 @@
+SetEvilBit(false);
+
+int getShortestStringLength(string array[], int size) {
+    local int i;
+    local int l;
+    local int length = 10000;
+    for (i = 0; i < size; i++) {
+        l = Strlen(array[i]);
+        if (l < length) {
+            length = l;
+        }
+    }
+    return length;
+}
+
+int findSelection(string selection, string pv[], int size, int shortest) {
+    local int i;
+    for (i = 0; i < size; i++) {
+        if (Strncmp(selection, pv[i], shortest) == 0) {
+            break;
+        }
+    }
+    // Printf("%s", pv[i]);
+    return i;
+}
+
+string getToken(string possible_tokens[], int size) {
+    local int shortest = getShortestStringLength(possible_tokens, size);
+    local string preferred_values[size];
+
+    local int i;
+    for (i = 0; i < size; i++) {
+        // Printf("%s\n", SubStr(possible_tokens[i], 0, shortest));
+        preferred_values[i] = SubStr(possible_tokens[i], 0, shortest);
+    }
+
+    local char selection[shortest];
+    ReadBytes(selection, FTell(), shortest, preferred_values);
+    //Printf("%s\n", selection);
+
+    local int index = findSelection(selection, possible_tokens, size, shortest);
+    local int target_length = Strlen(possible_tokens[index]);
+    local char selection_full[target_length];
+    local string new_pv[1];
+    new_pv[0] = possible_tokens[index];
+    ReadBytes(selection_full, FTell(), target_length, new_pv);
+
+    return selection;
+}
+
+local string possible_tokens[] = {"alp", "beta", "gamma"};
+local int size = 3;
+getToken(possible_tokens, size);

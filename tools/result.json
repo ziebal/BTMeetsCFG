@@ -1,0 +1,344 @@
+{
+"closing_tag.json": {
+"grammar": "Removed",
+"BT": "closing_tag.json.bt",
+"mined_grammar": "Removed",
+"generation": "14 of 14",
+"parsing": "14 of 14"
+},
+"closing_tag_2.json": {
+"grammar": "Removed",
+"BT": "closing_tag_2.json.bt",
+"mined_grammar": "Removed",
+"parsing": "0 of 4240"
+},
+"demo.json": {
+"grammar": "Removed",
+"BT": "demo.json.bt",
+"mined_grammar": "Removed",
+"generation": "19 of 19",
+"parsing": "11 of 12"
+},
+"demo_2.json": {
+"grammar": "Removed",
+"BT": "demo_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "3073 of 3073",
+"parsing": "1274 of 1275"
+},
+"demo_3.json": {
+"grammar": "Removed",
+"BT": "demo_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "16 of 16",
+"parsing": "16 of 16"
+},
+"epsilon_issue.json": {
+"grammar": "Removed",
+"BT": "epsilon_issue.json.bt",
+"mined_grammar": "Removed",
+"generation": "14 of 14",
+"parsing": "12 of 13"
+},
+"epsilon_test.json": {
+"grammar": "Removed",
+"BT": "epsilon_test.json.bt",
+"mined_grammar": "Removed",
+"generation": "16 of 16",
+"parsing": "12 of 13"
+},
+"follow_test_with_epsilon.json": {
+"grammar": "Removed",
+"BT": "follow_test_with_epsilon.json.bt",
+"mined_grammar": "Removed",
+"generation": "6 of 6",
+"parsing": "6 of 6"
+},
+"princeton_edu_example.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example.json.bt",
+"mined_grammar": "Removed",
+"generation": "6182 of 6182",
+"parsing": "6074 of 6074"
+},
+"princeton_edu_example_10.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_10.json.bt",
+"mined_grammar": "Removed",
+"generation": "6129 of 6129",
+"parsing": "5950 of 5950"
+},
+"princeton_edu_example_11.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_11.json.bt",
+"mined_grammar": "Removed",
+"generation": "6108 of 6108",
+"parsing": "2420 of 6986"
+},
+"princeton_edu_example_3.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "732 of 732",
+"parsing": "955 of 955"
+},
+"princeton_edu_example_5.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_5.json.bt",
+"mined_grammar": "Removed",
+"generation": "6094 of 6094",
+"parsing": "5999 of 5999"
+},
+"princeton_edu_example_6.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_6.json.bt",
+"mined_grammar": "Removed",
+"generation": "6117 of 6117",
+"parsing": "6125 of 6125"
+},
+"princeton_edu_example_8.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_8.json.bt",
+"mined_grammar": "Removed",
+"generation": "6061 of 6061",
+"parsing": "6052 of 6052"
+},
+"princeton_edu_example_9.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_example_9.json.bt",
+"mined_grammar": "Removed",
+"generation": "6009 of 6009",
+"parsing": "6072 of 6072"
+},
+"princeton_edu_no_ending_recursion.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_no_ending_recursion.json.bt",
+"mined_grammar": "Removed",
+"generation": "245 of 245",
+"parsing": "247 of 247"
+},
+"princeton_edu_no_rec_1.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_no_rec_1.json.bt",
+"mined_grammar": "Removed",
+"generation": "14 of 14",
+"parsing": "13 of 13"
+},
+"princeton_edu_no_rec_2.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_no_rec_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "14 of 14",
+"parsing": "14 of 14"
+},
+"princeton_edu_no_rec_3.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_no_rec_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "13 of 13",
+"parsing": "11 of 12"
+},
+"princeton_edu_short.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_short.json.bt",
+"mined_grammar": "Removed",
+"generation": "266 of 266",
+"parsing": "243 of 243"
+},
+"princeton_edu_short_2.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_short_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "3735 of 3735",
+"parsing": "4256 of 4256"
+},
+"princeton_edu_short_no_ending_epsilon.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_short_no_ending_epsilon.json.bt",
+"mined_grammar": "Removed",
+"generation": "244 of 244",
+"parsing": "248 of 248"
+},
+"princeton_edu_short_with_double_e.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_short_with_double_e.json.bt",
+"mined_grammar": "Removed",
+"generation": "247 of 247",
+"parsing": "181 of 182"
+},
+"princeton_edu_short_with_e.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_short_with_e.json.bt",
+"mined_grammar": "Removed",
+"generation": "250 of 250",
+"parsing": "268 of 268"
+},
+"princeton_edu_simple.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_simple.json.bt",
+"mined_grammar": "Removed",
+"generation": "2729 of 2729",
+"parsing": "2770 of 2770"
+},
+"princeton_edu_sub_7.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_sub_7.json.bt",
+"mined_grammar": "Removed",
+"generation": "1289 of 1289",
+"parsing": "1345 of 1345"
+},
+"princeton_edu_sub_8.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_sub_8.json.bt",
+"mined_grammar": "Removed",
+"generation": "2729 of 2729",
+"parsing": "1297 of 1298"
+},
+"princeton_edu_sub_9.json": {
+"grammar": "Removed",
+"BT": "princeton_edu_sub_9.json.bt",
+"mined_grammar": "Removed",
+"generation": "2707 of 2707",
+"parsing": "2649 of 2649"
+},
+"recursion_inter.json": {
+"grammar": "Removed",
+"BT": "recursion_inter.json.bt",
+"mined_grammar": "Removed",
+"generation": "13 of 13",
+"parsing": "14 of 14"
+},
+"recursion_inter_2.json": {
+"grammar": "Removed",
+"BT": "recursion_inter_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "3 of 3",
+"parsing": "3 of 3"
+},
+"recursion_inter_3.json": {
+"grammar": "Removed",
+"BT": "recursion_inter_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "14 of 14",
+"parsing": "15 of 15"
+},
+"recursion_inter_4.json": {
+"grammar": "Removed",
+"BT": "recursion_inter_4.json.bt",
+"mined_grammar": "Removed",
+"generation": "17 of 17",
+"parsing": "11 of 12"
+},
+"selfloop.json": {
+"grammar": "Removed",
+"BT": "selfloop.json.bt",
+"mined_grammar": "Removed",
+"generation": "28 of 28",
+"parsing": "23 of 23"
+},
+"selfloop2.json": {
+"grammar": "Removed",
+"BT": "selfloop2.json.bt",
+"mined_grammar": "Removed",
+"generation": "9 of 9",
+"parsing": "9 of 9"
+},
+"selfloop3.json": {
+"grammar": "Removed",
+"BT": "selfloop3.json.bt",
+"mined_grammar": "Removed",
+"generation": "9 of 9",
+"parsing": "9 of 9"
+},
+"sequence_epsilon.json": {
+"grammar": "Removed",
+"BT": "sequence_epsilon.json.bt",
+"mined_grammar": "Removed",
+"generation": "3 of 5",
+"parsing": "3 of 4"
+},
+"smallest.json": {
+"grammar": "Removed",
+"BT": "smallest.json.bt",
+"mined_grammar": "Removed",
+"generation": "1 of 1",
+"parsing": "1 of 2"
+},
+"small_test.json": {
+"grammar": "Removed",
+"BT": "small_test.json.bt",
+"mined_grammar": "Removed",
+"generation": "4 of 4",
+"parsing": "4 of 4"
+},
+"small_test_2.json": {
+"grammar": "Removed",
+"BT": "small_test_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "26 of 26",
+"parsing": "27 of 27"
+},
+"small_test_2_2.json": {
+"grammar": "Removed",
+"BT": "small_test_2_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "27 of 27",
+"parsing": "24 of 24"
+},
+"small_test_3.json": {
+"grammar": "Removed",
+"BT": "small_test_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "35 of 35",
+"parsing": "37 of 37"
+},
+"small_test_4.json": {
+"grammar": "Removed",
+"BT": "small_test_4.json.bt",
+"mined_grammar": "Removed",
+"generation": "25 of 25",
+"parsing": "27 of 27"
+},
+"small_test_4_2.json": {
+"grammar": "Removed",
+"BT": "small_test_4_2.json.bt",
+"mined_grammar": "Removed",
+"generation": "25 of 25",
+"parsing": "26 of 26"
+},
+"small_test_5.json": {
+"grammar": "Removed",
+"BT": "small_test_5.json.bt",
+"mined_grammar": "Removed",
+"generation": "36 of 36",
+"parsing": "35 of 35"
+},
+"test_6.json": {
+"grammar": "Removed",
+"BT": "test_6.json.bt",
+"mined_grammar": "Removed",
+"generation": "267 of 267",
+"parsing": "194 of 195"
+},
+"test_7.json": {
+"grammar": "Removed",
+"BT": "test_7.json.bt",
+"mined_grammar": "Removed",
+"generation": "2 of 2",
+"parsing": "2 of 2"
+},
+"third_prod_rule.json": {
+"grammar": "Removed",
+"BT": "third_prod_rule.json.bt",
+"mined_grammar": "Removed",
+"generation": "1 of 2",
+"parsing": "1 of 2"
+},
+"xml_debug_3.json": {
+"grammar": "Removed",
+"BT": "xml_debug_3.json.bt",
+"mined_grammar": "Removed",
+"generation": "12 of 12",
+"parsing": "12 of 12"
+}
+}
